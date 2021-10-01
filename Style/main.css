@@ -15,7 +15,7 @@ h1 {
 }
 
 .page-content {
-  margin-top: 100px;
+  margin-top: 25px;
 }
 
 footer {
@@ -38,3 +38,7 @@ footer p {
   background-color: #ffe5da;
 }
 /*# sourceMappingURL=main.css.map */
+
+/*.navbar {
+  background-color: #ffdcda;
+}*/
