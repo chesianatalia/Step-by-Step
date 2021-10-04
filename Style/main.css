@@ -37,6 +37,20 @@ footer p {
 .form-control {
   background-color: #ffe5da;
 }
+
+.button-search {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.button-search .btn_warna {
+  background-color: #a4403b;
+}
+
+.button-search .btn_warna:hover {
+  background-color: rgba(255, 125, 125, 0.8);
+}
 /*# sourceMappingURL=main.css.map */
 
 /*.navbar {
