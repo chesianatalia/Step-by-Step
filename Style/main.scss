@@ -4,8 +4,9 @@
 @import "fonts";
 @import "navbar";
 
-@import "pages/home";
-@import "pages/auth";
+@import "Pages/auth";
+@import "Pages/home";
+@import "Pages/read-more";
 
-@import "components/categories";
-@import "components/product";
+@import "Components/categories";
+@import "Components/product";

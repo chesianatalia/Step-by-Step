@@ -1,13 +1,87 @@
-.pages-home {
-  h5 {
-    font-weight: 300;
-    margin-bottom: 15px;
-  }
+.dashboard {
+  background-color: #fff0f0;
+  padding-bottom: 50px;
 }
+
+h5 {
+  font-family: "Cookie", "sans-serif";
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+
+h3 {
+  font-size: 36px;
+}
+
 
 .homepage-categories {
   margin-top: 30px;
 }
+
 .timeline {
   margin-top: 30px;
+}
+
+.btn_warna {
+  background-color: #ffbdb9;
+}
+
+.btn_warna:hover {
+  background-color: rgb(255, 218, 218);
+}
+
+.form-control {
+  background-color: #fff9f6;
+}
+
+.button-search {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.button-search .btn_warna {
+  background-color: #ffbdb9;
+}
+
+.button-search .btn_warna:hover {
+  background-color: rgb(255, 218, 218);
+}
+
+.button-readmore {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.likecomment img {
+  width: 25px;
+  height: 25px;
+
+  &:hover {
+    transform: scale(1.2);
+    text-decoration: none;
+  }
+}
+
+.post {
+  background-color: #fffdfd;
+  box-shadow: 3px 3px #d0d0d0;
+  border-radius: 8px;
+  padding: 10px 10px 30px 10px;
+  margin-bottom: 20px;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+    text-decoration: none;
+  }
+}
+
+.social-profile-bg {
+  background-color: #afafaf;
+  border-radius: 8px;
+  padding: 10px 10px 0px 10px;
+  margin-bottom: 20px;
 }

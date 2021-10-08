@@ -1,25 +1,24 @@
-.navbar-store {
-  padding-top: 15px;
-
-  @include media-breakpoint-down(md) {
-    background-color: #ffdcda !important;
-  }
+.navbar {
+  background-color: #ffe5da;
+  position: sticky;
 
   .nav-item {
     .nav-link {
-      @include media-breakpoint-up(lg) {
-        margin-left: 10px;
-        margin-right: 10px;
+
+      margin-left: 10px;
+      margin-right: 10px;
+      text-decoration: none;
+
+      &:hover {
+        transform: scale(1.05);
+        text-decoration: none;
       }
     }
   }
+}
 
-  .profile-picture {
-    max-height: 45px;
-  }
 
-  .navbar-fixed-top.scrolled {
-    background-color: #ffdcda !important;
-    transition: background-color 200ms linear;
-  }
+.nav-bar-text-decoration :hover {
+  transform: scale(1.05);
+  text-decoration: none;
 }

@@ -3,17 +3,28 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3,
+h5,
+h6 {
   font-family: "Cookie", "sans-serif";
 }
 
 .page-content {
-  margin-top: 100px;
+  padding-top: 0px;
+}
+
+
+.page-content . {}
+
+h1 {
+  font-size: 100px;
 }
 
 footer {
   border-top: 1px solid #ffdcda;
-  margin-top: 100px;
+  background-color: #ffff;
+
   p {
     color: #979797;
   }
